@@ -9,7 +9,9 @@ uses
   uMenuPrincipal,
   uClientes in '..\..\Core\Models\uClientes.pas',
   uICasoDeUsoCliente in '..\..\Core\Ports\uICasoDeUsoCliente.pas',
-  uResponse in '..\..\Core\Response\uResponse.pas';
+  uResponse in '..\..\Core\Response\uResponse.pas',
+  uDTOCliente in '..\..\Core\DTO\uDTOCliente.pas',
+  uCasoDeUsoCliente in '..\..\Core\UseCases\uCasoDeUsoCliente.pas';
 
 begin
   try

@@ -10,7 +10,7 @@ type
   sucess   :Boolean;
   ErrorCode:Integer;
   Message  :String;
-  Data     :TListObject<Object>
+  Data     :TObjectList<TObject>;
 
   end;
 

@@ -2,7 +2,7 @@ unit uICasoDeUsoCliente;
 
 interface
 
-uses uClientes;
+uses uClientes, uResponse, uDTOCliente;
 
 type
   ICasoDeUsoCliente=interface
@@ -20,7 +20,7 @@ type
 
     //consultar
 
-    function Consultar(Dto: DtoCliente):Tresponse;
+    function Consultar(Dto: DTOCliente):Tresponse;
   end;
 
 implementation
