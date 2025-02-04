@@ -6,7 +6,10 @@ program locacaoConsole;
 
 uses
   System.SysUtils,
-  uMenuPrincipal;
+  uMenuPrincipal,
+  uClientes in '..\..\Core\Models\uClientes.pas',
+  uICasoDeUsoCliente in '..\..\Core\Ports\uICasoDeUsoCliente.pas',
+  uResponse in '..\..\Core\Response\uResponse.pas';
 
 begin
   try
