@@ -20,7 +20,22 @@ implementation
 { TCasoDeUsoCliente }
 
 function TCasoDeUsoCliente.Alterar(clinete: TCliente): Tresponse;
+var
+  response:Tresponse;
 begin
+  try
+    response.sucess:=True;
+
+  except
+    on e : Exception do
+    begin
+
+    end;
+
+  end;
+
+
+  result:=response;
 
 end;
 
